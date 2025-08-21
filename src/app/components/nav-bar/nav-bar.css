@@ -48,3 +48,14 @@ button{
     cursor: pointer;
     background-color: #036ef2;
 }
+
+
+@media (max-width: 768px){
+    nav{
+        font-size: 0rem;
+        max-width: 700px;
+    }
+    .obs{
+        margin: 0;
+    }
+}
