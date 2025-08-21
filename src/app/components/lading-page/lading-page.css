@@ -22,9 +22,6 @@
     font-weight: 400;
     margin-bottom: 5%;
 }                       
-#principal article{
-    margin-bottom: 35%;
-}
 
 
 
@@ -280,20 +277,23 @@ b{
 
 @media (max-width: 768px){
     *{
-        font-size: 105%;
         text-align: start;
-        padding: 10px;
        margin-bottom: auto
        ;
     }
-    
+    button{
+        height: 5vh;
+        font-size: 1rem;
+    }
 }
 
 @media (max-width: 630px){
     #container{
-        font-size: 1rem;
         align-items: center;
-        height: 50vh;
         flex-direction: column;
+    }
+
+    #container h3{
+        font-size: 1rem;
     }
 }
