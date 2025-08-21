@@ -1,0 +1,299 @@
+
+
+#principal{
+    background-image: url("https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTbXhPh3CxuHScANFiaCpt_919Q8yznlbmV5KJCm7UgMQ2uQk5e");
+    background-position: relative;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin: 0;
+    box-sizing:border-box;
+    padding: 50px;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+    text-align: start;
+    height: 94vh;
+   
+}
+#principal h1{
+     position: relative;
+    font-size:6vw;
+    font-weight: 400;
+    margin-bottom: 5%;
+}                       
+#principal article{
+    margin-bottom: 35%;
+}
+
+
+
+#principal  button{
+    font-family: "Archivo", sans-serif;
+    margin-top: 35px;
+     margin-left: 30%;
+     margin-top: 30%;
+    cursor: pointer;
+    padding: 25px;
+    width: 55vw;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    color: #006deb;
+    background-color: #ffffff;
+}
+
+button:hover{
+    background-color: rgb(223, 128, 73);
+    color: white;
+}
+
+#solucoes{
+    margin-top: 5%;
+    padding: 40px;
+    height: 94vh;
+
+}
+#solucoes article{
+    display: flex;
+    font-size: 2vw;
+    justify-content: end;
+    
+    
+}
+#solucoes article p{
+   
+    margin-right: 20px;
+}
+
+#container{
+    box-sizing: border-box;
+    padding: 50px;
+    display: flex;
+    margin-top: 50px;
+    font-size: 1.5rem;
+    position: relative;
+}
+b{
+    color: #00aaff;
+}
+#container p{
+    margin-top: 25px;
+}
+
+#container a{
+    font-size: 15px;
+   text-decoration: underline;
+ 
+}
+
+.square1{
+      width: 100%;
+   max-width: 980px;
+    padding: 6%;
+    width: 25vw;
+    height: 10vw;
+    background-color:#00aaff;
+}
+.square2{
+      width: 100%;
+   max-width: 980px;
+    padding: 6%;
+    width: 25vw;
+    height: 10vw;
+
+    background-color:#036ef2;
+}
+
+#indicacoes{
+    
+    height: 95vh;
+    display: flex;
+    align-items: start;
+    flex-direction: row;
+
+}
+.head{
+    margin-left: 15%;
+    display: flex;
+    flex-direction: row;
+    font-size: 1.5rem;
+    justify-content: start;
+    
+
+}
+.ind{
+    margin-left: 15px;
+}
+.numbers{
+
+    display: flex;
+    align-items: end;
+    flex-direction: column;
+}
+
+.numbers h1{
+    margin-top: 40px;
+    font-size: 4rem;
+    border-top: 1px solid rgba(255, 255, 255, 0.233);
+    margin-bottom: 50px;
+    background: linear-gradient(#0373f3, #019ffd);
+    -webkit-background-clip: text;
+            background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.numbers p{
+    color: white;
+}
+
+.num{
+    
+    display: flex;
+    
+}
+.num h1{
+      margin-right: 20px;
+}
+
+.num2{
+  
+    display: flex;
+    
+}
+
+.num2 h1{
+      margin-right: 20px;
+}
+#certificacoes{
+    height: 80vh;
+}
+#certificacoes article{
+    
+    display: flex;
+    flex-direction: row;
+}
+#certificacoes img{
+    padding: 50px;
+    height: 20vh;
+    width: 10vw;
+    margin-left: 10px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+#sustentabilidade{
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10%;
+    width: 85vw;
+    background-repeat: no-repeat;
+    position: relative;
+    background-position: relative;
+    background-image: url("https://tis.ao/wp-content/uploads/2025/05/bg-cta-sustentabilidade.webp");
+}
+
+
+#sustentabilidade article h1{
+    margin-left: 100px;
+    font-size: 2rem;
+}
+#sustentabilidade article p{
+    margin-left: 100px;
+    font-size: 1.2rem;
+}
+
+#sustentabilidade article b{
+    color: white;
+    font-weight: 500;  
+}
+
+#sustentabilidade article img{
+    height: 10vh;
+    width: 25vw;
+}
+#agenda{
+    max-width: 100%;
+    display: flow-root;
+
+
+
+  height: auto;
+  box-sizing: border-box;
+}
+.sqrd{
+ 
+    background-repeat: no-repeat;
+    background-position: relative;
+    
+    height: 70vh;
+    background-image: url("https://tis.ao/wp-content/uploads/2025/06/bg-cta-1.webp");
+}
+.sqr{
+       
+       flex-direction: row-reverse;
+}
+
+#ecossistema{
+    margin-top: 50px;
+    padding: 10%;
+    margin-bottom: 20%;
+}
+
+#ecossistema article{
+    display: flex;
+    flex-direction: row;
+}
+#ecossistema article p{
+    margin-right: 20px;
+}
+#ecossistema article h1{
+        font-size: 2.5rem;
+
+}
+
+#cta{
+    padding: 55px;
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    background-color: #ff6b6b;
+    background-image: url("https://tis.ao/wp-content/uploads/2025/05/Ellipse-2.svg");
+}
+
+#cta button{
+       font-family: "Archivo", sans-serif;
+    margin-top: 35px;
+     margin-left: 16%;
+     margin-top: 10%;
+    cursor: pointer;
+    padding: 25px;
+    width: 25vw;
+    font-size: 1.3rem;
+    border: none;
+    border-radius: 5px;
+    color: #006deb;
+    background-color: #ffffff;
+}
+
+@media (max-width: 768px){
+    *{
+        font-size: 105%;
+        text-align: start;
+        padding: 10px;
+       margin-bottom: auto
+       ;
+    }
+    
+}
+
+@media (max-width: 630px){
+    #container{
+        font-size: 1rem;
+        align-items: center;
+        height: 50vh;
+        flex-direction: column;
+    }
+}

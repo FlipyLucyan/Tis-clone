@@ -1,1 +1,32 @@
-/* You can add global styles to this file, and also import other style files */
+*{
+    margin: 0;
+    font-weight: 400;
+    padding: 0;
+    position: relative;
+}
+
+body{
+    text-decoration: none;
+    font-family: "Archivo", sans-serif;
+    padding: 5px;
+    background-color: #04165d;
+    color: white;
+  
+}
+h1{
+    font-size: 2rem;
+}
+
+p{
+    font-size: 1rem;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+@media (max-width: 768px){
+    
+    
+}
